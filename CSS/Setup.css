@@ -1,4 +1,4 @@
-h1, body {
+body {
     margin: auto auto auto auto;
 }
 
@@ -6,6 +6,7 @@ h1 {
     text-align: center;
     background-color: maroon;
     font-size: 5em;
+    margin: auto auto auto auto;
 }
 
 .mainText {

@@ -23,7 +23,7 @@
         <div class="mainText">
             <div id="Quadratics">
                 <h2>Quadratics: </h2>
-                <p>For the form ax&sup2; + bx + c = 0, x = 
+                <p>For the form ax&sup2; + bx + c = 0, x = </p>
                     <math>
                         <mfrac>
                             <mrow>
@@ -47,9 +47,110 @@
                             </mrow>
                         </mfrac>
                     </math>
-                </p>
                 <br>
-                <p>That is one way to do it. The other way is to do this: 
+                <h4>Reason:</h4>
+                <p>The quadratic formula works by using a technique called "completing the square" to isolate the variable <math><mi>x</mi></math> in any standard quadratic equation. Instead of completing the square from scratch every time, the formula acts as a shortcut that gives you the answer immediately.</p>
+
+                <p>1. Start with the standard form: Every quadratic equation can be written with all terms on one side, where <math><mi>a</mi><mo>&#x2260;</mo><mn>0</mn></math>.</p>
+                <math display="block">
+                    <mrow>
+                        <mi>a</mi>
+                        <msup>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                        </msup>
+                    <mo>+</mo>
+                    <mi>b</mi>
+                    <mi>x</mi>
+                    <mo>+</mo>
+                    <mi>c</mi>
+                    <mo>=</mo>
+                    <mn>0</mn>
+                    </mrow>
+                </math>
+
+                <p>2. Divide by the leading coefficient: Divide every term by <math><mi>a</mi></math> so that the coefficient in front of <math><msup><mi>x</mi><mn>2</mn></msup></math> becomes <math><mn>1</mn></math>.</p>
+                <math display="block">
+                    <mrow>
+                    <msup><mi>x</mi><mn>2</mn></msup>
+                    <mo>+</mo>
+                    <mfrac><mi>b</mi><mi>a</mi></mfrac><mi>x</mi>
+                    <mo>+</mo>
+                    <mfrac><mi>c</mi><mi>a</mi></mfrac>
+                    <mo>=</mo>
+                    <mn>0</mn>
+                    </mrow>
+                </math>
+
+                <p>3. Move the constant term: Subtract <math><mfrac><mi>c</mi><mi>a</mi></mfrac></math> from both sides to get the <math><mi>x</mi></math> terms by themselves.</p>
+                <math display="block">
+                    <mrow>
+                    <msup><mi>x</mi><mn>2</mn></msup>
+                    <mo>+</mo>
+                    <mfrac><mi>b</mi><mi>a</mi></mfrac><mi>x</mi>
+                    <mo>=</mo>
+                    <mo>-</mo><mfrac><mi>c</mi><mi>a</mi></mfrac>
+                    </mrow>
+                </math>
+
+                <p>4. Complete the square: Take half of the coefficient of <math><mi>x</mi></math> (which is <math><mfrac><mi>b</mi><mrow><mn>2</mn><mi>a</mi></mrow></mfrac></math>), square it to get <math><mfrac><msup><mi>b</mi><mn>2</mn></msup><mrow><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></mfrac></math>, and add it to both sides. This turns the left side into a perfect square trinomial.</p>
+                <math display="block">
+                    <mrow>
+                    <msup><mi>x</mi><mn>2</mn></msup>
+                    <mo>+</mo>
+                    <mfrac><mi>b</mi><mi>a</mi></mfrac><mi>x</mi>
+                    <mo>+</mo>
+                    <mfrac><msup><mi>b</mi><mn>2</mn></msup><mrow><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></mfrac>
+                    <mo>=</mo>
+                    <mfrac><msup><mi>b</mi><mn>2</mn></msup><mrow><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></mfrac>
+                    <mo>-</mo>
+                    <mfrac><mi>c</mi><mi>a</mi></mfrac>
+                    </mrow>
+                </math>
+
+                <p>5. Factor and combine fractions: Rewrite the left side as a squared binomial. On the right side, give both fractions a common denominator of <math><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup></math> so you can combine them.</p>
+                <math display="block">
+                    <mrow>
+                    <msup>
+                        <mrow>
+                        <mo>(</mo>
+                        <mi>x</mi><mo>+</mo><mfrac><mi>b</mi><mrow><mn>2</mn><mi>a</mi></mrow></mfrac>
+                        <mo>)</mo>
+                        </mrow>
+                        <mn>2</mn>
+                    </msup>
+                    <mo>=</mo>
+                    <mfrac>
+                        <mrow><msup><mi>b</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>a</mi><mi>c</mi></mrow>
+                        <mrow><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup></mrow>
+                    </mfrac>
+                    </mrow>
+                </math>
+
+                <p>6. Take the square root of both sides: Taking the square root cancels out the exponent on the left. Remember to include the <math><mo>&#x00B1;</mo></math> symbol on the right because both positive and negative roots are valid.</p>
+                <math display="block">
+                    <mrow>
+                    <mi>x</mi><mo>+</mo><mfrac><mi>b</mi><mrow><mn>2</mn><mi>a</mi></mrow></mfrac>
+                    <mo>=</mo>
+                    <mfrac>
+                        <mrow><mo>&#x00B1;</mo><msqrt><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>a</mi><mi>c</mi></mrow></msqrt></mrow>
+                        <mrow><mn>2</mn><mi>a</mi></mrow>
+                    </mfrac>
+                    </mrow>
+                </math>
+
+                <p>7. Isolate <math><mi>x</mi></math>: Subtract <math><mfrac><mi>b</mi><mrow><mn>2</mn><mi>a</mi></mrow></mfrac></math> from both sides. Because the fractions share the same denominator, you can merge them into the final quadratic formula.</p>
+                <math display="block">
+                    <mrow>
+                    <mi>x</mi>
+                    <mo>=</mo>
+                    <mfrac>
+                        <mrow><mo>-</mo><mi>b</mi><mo>&#x00B1;</mo><msqrt><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>a</mi><mi>c</mi></mrow></msqrt></mrow>
+                        <mrow><mn>2</mn><mi>a</mi></mrow>
+                    </mfrac>
+                    </mrow>
+                </math>
+                <h3>That is one way to do it. The other way is to do this: 
                     <math>
                         <mi>x</mi>
                         <mo>=</mo>
@@ -92,7 +193,7 @@
                             <mi>b</mi>
                             <mn>1</mn>
                         </msub>
-                        <mo>&times;</mo>
+                        <mo>&middot;</mo>
                         <msub>
                             <mi>b</mi>
                             <mn>2</mn>
@@ -103,10 +204,522 @@
                         <mo>]</mo>
                     </math>
                 </p>
+                <h4>Reason:</h4>
+                <p>This works because of the distributive property.</p>
+                <p>1. Rewriting the form.</p> 
+                    <math>
+                        <mn>0</mn>
+                        <mo>-</mo>
+                        <mfrac>
+                            <msub>
+                                <mi>b</mi>
+                                <mn>1</mn>
+                            </msub>
+                            <mi>a</mi>
+                        </mfrac>
+                        <mo>,</mo>
+                        <mn>0</mn>
+                        <mo>-</mo>
+                        <mfrac>
+                            <msub>
+                                <mi>b</mi>
+                                <mn>2</mn>
+                            </msub>
+                            <mi>a</mi>
+                        </mfrac>
+                    </math>
+                    <p>to</p>
+                    <math>
+                        <mo>(</mo>
+                        <mi>x</mi>
+                        <mo>+</mo>
+                        <mfrac>
+                            <msub>
+                                <mi>b</mi>
+                                <mn>1</mn>
+                            </msub>
+                            <mi>a</mi>
+                        </mfrac>
+                        <mo>)</mo>
+                        <mo>(</mo>
+                        <mi>x</mi>
+                        <mo>+</mo>
+                        <mfrac>
+                            <msub>
+                                <mi>b</mi>
+                                <mn>2</mn>
+                            </msub>
+                            <mi>a</mi>
+                        </mfrac>
+                        <mo>)</mo>
+                        <mo>=</mo>
+                        <mn>0</mn>
+                    </math>
+                    <p>2. Using the distributive property.</p>
+                    <math>
+                        <mo>(</mo>
+                        <mi>x</mi>
+                        <mo>+</mo>
+                        <mfrac>
+                            <msub>
+                                <mi>b</mi>
+                                <mn>1</mn>
+                            </msub>
+                            <mi>a</mi>
+                        </mfrac>
+                        <mo>)</mo>
+                        <mo>(</mo>
+                        <mi>x</mi>
+                        <mo>+</mo>
+                        <mfrac>
+                            <msub>
+                                <mi>b</mi>
+                                <mn>2</mn>
+                            </msub>
+                            <mi>a</mi>
+                        </mfrac>
+                        <mo>)</mo>
+                        <mo>=</mo>
+                        <mo>(</mo>
+                        <mi>x</mi>
+                        <mo>&middot;</mo>
+                        <mi>x</mi>
+                        <mo>)</mo>
+                        <mo>+</mo>
+                        <mo>(</mo>
+                        <mi>x</mi>
+                        <mo>&middot;</mo>
+                        <mfrac>
+                            <msub>
+                                <mi>b</mi>
+                                <mn>2</mn>
+                            </msub>
+                            <mi>a</mi>
+                        </mfrac>
+                        <mo>)</mo>
+                        <mo>+</mo>
+                        <mo>(</mo>
+                        <mfrac>
+                            <msub>
+                                <mi>b</mi>
+                                <mn>1</mn>
+                            </msub>
+                            <mi>a</mi>
+                        </mfrac>
+                        <mo>&middot;</mo>
+                        <mi>x</mi>
+                        <mo>)</mo>
+                        <mo>+</mo>
+                        <mo>(</mo>
+                        <mfrac>
+                            <msub>
+                                <mi>b</mi>
+                                <mn>1</mn>
+                            </msub>
+                            <mi>a</mi>
+                        </mfrac>
+                        <mo>&middot;</mo>
+                        <mfrac>
+                            <msub>
+                                <mi>b</mi>
+                                <mn>2</mn>
+                            </msub>
+                            <mi>a</mi>
+                        </mfrac>
+                        <mo>)</mo>
+                    </math>
+                    <p>3. Simplifying.</p>
+                    <math>
+                        <mo>(</mo>
+                        <mi>x</mi>
+                        <mo>&middot;</mo>
+                        <mi>x</mi>
+                        <mo>)</mo>
+                        <mo>+</mo>
+                        <mo>(</mo>
+                        <mi>x</mi>
+                        <mo>&middot;</mo>
+                        <mfrac>
+                            <msub>
+                                <mi>b</mi>
+                                <mn>2</mn>
+                            </msub>
+                            <mi>a</mi>
+                        </mfrac>
+                        <mo>)</mo>
+                        <mo>+</mo>
+                        <mo>(</mo>
+                        <mfrac>
+                            <msub>
+                                <mi>b</mi>
+                                <mn>1</mn>
+                            </msub>
+                            <mi>a</mi>
+                        </mfrac>
+                        <mo>&middot;</mo>
+                        <mi>x</mi>
+                        <mo>)</mo>
+                        <mo>+</mo>
+                        <mo>(</mo>
+                        <mfrac>
+                            <msub>
+                                <mi>b</mi>
+                                <mn>1</mn>
+                            </msub>
+                            <mi>a</mi>
+                        </mfrac>
+                        <mo>&middot;</mo>
+                        <mfrac>
+                            <msub>
+                                <mi>b</mi>
+                                <mn>2</mn>
+                            </msub>
+                            <mi>a</mi>
+                        </mfrac>
+                        <mo>)</mo>
+                        <mo>=</mo>
+                        <mo>(</mo>
+                        <msup>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                        </msup>
+                        <mo>)</mo>
+                        <mo>+</mo>
+                        <mo>(</mo>
+                        <mfrac>
+                            <mrow>
+                                <msub>
+                                    <mi>b</mi>
+                                    <mn>1</mn>
+                                </msub>
+                                <mo>+</mo>
+                                <msub>
+                                    <mi>b</mi>
+                                    <mn>2</mn>
+                                </msub>
+                            </mrow>
+                            <mi>a</mi>
+                        </mfrac>
+                        <mi>x</mi>
+                        <mo>)</mo>
+                        <mo>+</mo>
+                        <mo>(</mo>
+                        <mfrac>
+                            <mrow>
+                                <msub>
+                                    <mi>b</mi>
+                                    <mn>1</mn>
+                                </msub>
+                                <mo>&middot;</mo>
+                                <msub>
+                                    <mi>b</mi>
+                                    <mn>2</mn>
+                                </msub>
+                            </mrow>
+                            <msup>
+                                <mi>a</mi>
+                                <mn>2</mn>
+                            </msup>
+                        </mfrac>
+                        <mo>)</mo>
+                    </math>
+                    <p>4. From before we know that 
+                        <math>
+                            <mo>[</mo>
+                            <msub>
+                                <mi>b</mi>
+                                <mn>1</mn>
+                            </msub>
+                            <mo>+</mo>
+                            <msub>
+                                <mi>b</mi>
+                                <mn>2</mn>
+                            </msub>
+                            <mo>=</mo>
+                            <mi>b</mi>
+                            <mo>,</mo>
+                            <msub>
+                                <mi>b</mi>
+                                <mn>1</mn>
+                            </msub>
+                            <mo>&middot;</mo>
+                            <msub>
+                                <mi>b</mi>
+                                <mn>2</mn>
+                            </msub>
+                            <mo>=</mo>
+                            <mi>a</mi>
+                            <mi>c</mi>
+                            <mo>]</mo>
+                        </math>
+                        so we can simplify further.
+                    </p>
+                    <math>
+                        <mo>(</mo>
+                        <msup>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                        </msup>
+                        <mo>)</mo>
+                        <mo>+</mo>
+                        <mo>(</mo>
+                        <mfrac>
+                            <mrow>
+                                <msub>
+                                    <mi>b</mi>
+                                    <mn>1</mn>
+                                </msub>
+                                <mo>+</mo>
+                                <msub>
+                                    <mi>b</mi>
+                                    <mn>2</mn>
+                                </msub>
+                            </mrow>
+                            <mi>a</mi>
+                        </mfrac>
+                        <mi>x</mi>
+                        <mo>)</mo>
+                        <mo>+</mo>
+                        <mo>(</mo>
+                        <mfrac>
+                            <mrow>
+                                <msub>
+                                    <mi>b</mi>
+                                    <mn>1</mn>
+                                </msub>
+                                <mo>&middot;</mo>
+                                <msub>
+                                    <mi>b</mi>
+                                    <mn>2</mn>
+                                </msub>
+                            </mrow>
+                            <msup>
+                                <mi>a</mi>
+                                <mn>2</mn>
+                            </msup>
+                        </mfrac>
+                        <mo>)</mo>
+                        <mo>=</mo>
+                        <msup>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                        </msup>
+                        <mo>+</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>b</mi>
+                            </mrow>
+                            <mi>a</mi>
+                        </mfrac>
+                        <mi>x</mi>
+                        <mo>+</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>a</mi>
+                                <mi>c</mi>
+                            </mrow>
+                            <msup>
+                                <mi>a</mi>
+                                <mn>2</mn>
+                            </msup>
+                        </mfrac>
+                    </math>
+                    <p>5. The <math><mi>a</mi></math>'s cancel out leaving this. </p>
+                    <math>
+                        <msup>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                        </msup>
+                        <mo>+</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>b</mi>
+                            </mrow>
+                            <mi>a</mi>
+                        </mfrac>
+                        <mi>x</mi>
+                        <mo>+</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>a</mi>
+                                <mi>c</mi>
+                            </mrow>
+                            <msup>
+                                <mi>a</mi>
+                                <mn>2</mn>
+                            </msup>
+                        </mfrac>
+                        <mo>=</mo>
+                        <msup>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                        </msup>
+                        <mo>+</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>b</mi>
+                            </mrow>
+                            <mi>a</mi>
+                        </mfrac>
+                        <mi>x</mi>
+                        <mo>+</mo>
+                        <mfrac>
+                                <mi>c</mi>
+                                <mi>a</mi>
+                        </mfrac>
+                    </math>
+                    <p>6. We can finally multiply <math><mi>a</mi></math> with evrything to get our standard form.</p>
+                    <math>
+                        <msup>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                        </msup>
+                        <mo>+</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>b</mi>
+                            </mrow>
+                            <mi>a</mi>
+                        </mfrac>
+                        <mi>x</mi>
+                        <mo>+</mo>
+                        <mfrac>
+                                <mi>c</mi>
+                                <mi>a</mi>
+                        </mfrac>
+                        <mo>=</mo>
+                        <mi>a</mi>
+                        <msup>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                        </msup>
+                        <mo>+</mo>
+                        <mi>b</mi>
+                        <mi>x</mi>
+                        <mo>+</mo>
+                        <mi>c</mi>
+                        <mo>=</mo>
+                        <mn>0</mn>
+                    </math>
+
             </div>
             <div id="Logarithims">
                 <h2>Logarithims:</h2>
                 <h3>Product Rule:</h3>
+                <math>
+                    <msub>
+                        <mi>log</mi>
+                        <mi>b</mi>
+                    </msub>
+                    <mo>(</mo>
+                    <mi>m</mi>
+                    <mo>&middot;</mo>
+                    <mi>n</mi>
+                    <mo>)</mo>
+                    <mo>=</mo>
+                    <msub>
+                        <mi>log</mi>
+                        <mi>b</mi>
+                    </msub>
+                    <mo>(</mo>
+                    <mi>m</mi>
+                    <mo>)</mo>
+                    <mo>+</mo>
+                    <msub>
+                        <mi>log</mi>
+                        <mi>b</mi>
+                    </msub>
+                    <mo>(</mo>
+                    <mi>n</mi>
+                    <mo>)</mo>   
+                </math>
+                <h3>Quotient Rule:</h3>
+                <math>
+                    <msub>
+                        <mi>log</mi>
+                        <mi>b</mi>
+                    </msub>
+                    <mo>(</mo>
+                    <mfrac>
+                        <mrow>
+                            <mi>m</mi>
+                        </mrow>
+                        <mrow>
+                            <mi>n</mi>
+                        </mrow>
+                    </mfrac>
+                    <mo>)</mo>
+                    <mo>=</mo>
+                    <msub>
+                        <mi>log</mi>
+                        <mi>b</mi>
+                    </msub>
+                    <mo>(</mo>
+                    <mi>m</mi>
+                    <mo>)</mo>
+                    <mo>-</mo>
+                    <msub>
+                        <mi>log</mi>
+                        <mi>b</mi>
+                    </msub>
+                    <mo>(</mo>
+                    <mi>n</mi>
+                    <mo>)</mo>
+                </math>
+                <h3>Change of Base Rule:</h3>
+                <math>
+                    <msub>
+                        <mi>log</mi>
+                        <mi>b</mi>
+                    </msub>
+                    <mo>(</mo>
+                    <mi>m</mi>
+                    <mo>)</mo>
+                    <mo>=</mo>
+                    <mfrac>
+                        <mrow>
+                            <msub>
+                                <mi>log</mi>
+                                <mi>c</mi>
+                            </msub>
+                            <mo>(</mo>
+                            <mi>m</mi>
+                            <mo>)</mo>
+                        </mrow>
+                        <mrow>
+                            <msub>
+                                <mi>log</mi>
+                                <mi>c</mi>
+                            </msub>
+                            <mo>(</mo>
+                            <mi>b</mi>
+                            <mo>)</mo>
+                        </mrow>
+                    </mfrac>
+                </math>
+                <h3>Power Rule:</h3>
+                <math>
+                    <msub>
+                        <mi>log</mi>
+                        <mi>b</mi>
+                    </msub>
+                    <mo>(</mo>
+                    <msup>
+                        <mi>m</mi>
+                        <mi>n</mi>
+                    </msup>
+                    <mo>)</mo>
+                    <mo>=</mo>
+                    <mi>n</mi>
+                    <mo>&middot;</mo>
+                    <msub>
+                        <mi>log</mi>
+                        <mi>b</mi>
+                    </msub>
+                    <mo>(</mo>
+                    <mi>m</mi>
+                    <mo>)</mo>
+                </math>
             </div>
         </div>
     </div>
